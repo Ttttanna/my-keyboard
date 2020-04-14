@@ -1,7 +1,7 @@
 h3 {
   text-align: center;
-
 }
+
 .keyboard__window {
   display: block;
   resize: none;
@@ -10,21 +10,18 @@ h3 {
   margin: 10px auto;
   color:#6A5ACD ;
   font: bold, 16px;
-
 }
+
 .keyboard {
   width: 920px;
   padding: 5px 0;
   padding-left: 10px;
-  /*background-color: darkcyan;  */
   border: 5px solid black;
   border-radius: 2px;
   margin: 10px auto;
   background-color: #191970;
 }
-/*.keyboard__keys {
-  text-align: center;
-}*/
+
 .keyboard__key {
   height: 45px;
   width: 56px;
@@ -32,7 +29,7 @@ h3 {
   border-radius: 4px;
   border: none;
   color: #ffffff;
-  outline: none; /* for mobile*/
+  outline: none;
   font-size: 1.05rem;
   display: inline-flex;
   cursor: pointer;
@@ -42,9 +39,7 @@ h3 {
   transition: 0.5s;
   box-shadow: 0 0 20px rgba(0,0,0,.1);
 }
-.keyboard__key:hover {
-  transform: scale(1.1);
-}
+
 .keyboardkey__active {
   background: rgba(255, 255, 255, 0.12);
 }
@@ -62,4 +57,11 @@ h3 {
 }
 .invisible {
   display: none;  
+}
+
+.highlight {
+  background: pink;
+  transition: 0.5s;
+  border: inset 4px solid pink;
+  transform: scale(0.9);
 }
